@@ -35,7 +35,7 @@ const Navbar = () => {
                         </NavLink>
                     </div>
                     <div className="flex items-center space-x-4">
-                        <div className="relative">
+                        {/* <div className="relative">
                             <select
                                 value={themeId}
                                 onChange={(e) => setThemeId(e.target.value)}
@@ -47,7 +47,7 @@ const Navbar = () => {
                                 ))}
                             </select>
                             <FiChevronDown className="absolute right-2.5 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none" />
-                        </div>
+                        </div> */}
                         {user ? (
                             <>
                                 {isAdmin && <Link to="/admin" className={navLinkClasses}>Admin</Link>}
